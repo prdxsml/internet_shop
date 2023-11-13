@@ -19,7 +19,6 @@ def browser(request):
     browser_name == "chrome"
     print("\nstart chrome browser for test ...")
     browser = webdriver.Chrome()
-
     
     yield browser
     print("\nquit browser..")
